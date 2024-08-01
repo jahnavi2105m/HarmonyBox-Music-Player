@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>HarmonyBox</h1>
       <Player song={songs[currentSongIndex]} 
       nextSong={songs[nextSongIndex]}/>
     </div>

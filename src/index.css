@@ -11,7 +11,10 @@
 }
 
 body {
-  background-color: rgb(29, 12, 41);
+ /* background-color: rgb(29, 12, 41);*/
+ /*background-image: linear-gradient(0deg, #000000 0%, #810b9c 100%);*/
+ background-image: url('./backgroundimg/background5.png');
+background-size: cover;
 }
 
 .App {
@@ -21,20 +24,25 @@ body {
   min-height: 100vh;
 }
 
-.comp-player {
-  display:block;
-  background-color:blueviolet;
-  padding: 50px;
-  border-radius: 16px;
-  
+.App > h1 {
+  color: #FFF;
+  font-size: 40px;
+  transform: translateX(-200px);
+  position: relative;
+  top: -320px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8), -1px -1px 2px rgba(255,255,255,0.4);
 }
+
+ 
 
 .comp-player > h4 {
   color: #FFF;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 550;
   text-align: center;
+  transform: translateY(200px);
+  margin-left: 150px;
 }
 
 
@@ -43,6 +51,8 @@ body {
   font-size: 14px;
   font-weight: 500;
   text-align: center;
+  transform: translateY(-235px);
+  margin-left: 150px;
 }
 
 .comp-player--details .details-img {
@@ -55,24 +65,33 @@ body {
   display: block;
   margin: 0px auto;
   width: 100%;
-  max-width: 250px;
+  max-width: 350px;
   border-radius: 50%;
+  transform: translateX(-560px);
+  position: relative;
+  top: 80px;
+
 }
 
 .comp-player--details .details-title {
   color: #EEE;
-  font-size: 28px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  font-size: 52px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8), -1px -1px 2px rgba(255,255,255,0.4);
   text-align:center;
   margin-bottom: 10px;
+  position: relative;
+  transform: translateY(-230px);
+  margin-left: 150px;
 }
 
 .comp-player--details .details-artist {
   color: #AAA;
-  font-size: 20px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  font-size: 28px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8), -1px -1px 2px rgba(255,255,255,0.4);
   text-align:center;
   margin-bottom: 20px;
+  transform: translateY(-230px);
+  margin-left: 150px;
 }
 
 .comp-player--controls {
@@ -80,6 +99,8 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  transform: translateY(-230px);
+  margin-left: 150px;
 }
 
 .comp-player--controls .play-btn {
@@ -87,11 +108,11 @@ body {
   margin: 0 30px;
   padding: 20px;
   border-radius: 50%;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.8), -4px -4px 10px rgba(255,255,255,0.4), inset -4px -4px 10px rgba(0,0,0,0.4),inset 4px 4px 10px rgba(255,255,255,0.4);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.8), -2px -2px 5px rgba(255,255,255,0.4), inset -2px -2px 5px rgba(0,0,0,0.4),inset 2px 2px 5px rgba(255,255,255,0.4);
   border: none;
   outline: none;
   color: #FFF;
-  background-color: rgb(222, 172, 105);
+  background-color: rgb(222, 105, 191);
   font-size: 24px;
   cursor: pointer;
 }
