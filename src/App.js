@@ -4,10 +4,10 @@ import Player from './components/Player'
 function App() {
   const [songs] = useState([
     {
-      title: "I Was Made For Loving You",
+      title: "I Was Made For Lovin You",
       artist: "KISS",
       img_src: "./images/kiwmfly-img.png",
-      src: "./music/Kiss - I Was Made For Lovin You.m4a"
+      src: "./music/Kiss-IWasMadeForLovinYou.m4a"
     },
     {
       title: "Dancing Queen",
