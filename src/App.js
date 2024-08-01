@@ -1,7 +1,8 @@
 import {useState} from 'react';
+import Player from './components/Player'
 
 function App() {
-  const [song, setSong] = useState([
+  const [songs, setSongs] = useState([
     {
       title: "I Was Made For Loving You",
       artist: "KISS",
@@ -14,12 +15,15 @@ function App() {
       img_src: "./images/dancingqueen-img.png",
       src: "./music/Abba - Dancing Queen.m4a"
     }
-  ])
+  ]);
 
+  const [currentSongIndex, setCurrentSongIndex] = useState(0);
+  const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
 
   return (
     <div className="App">
-      
+      <Player song={songs[currentSongIndex]} 
+      nextSong={songs[nextSongIndex]}/>
     </div>
   );
 }
