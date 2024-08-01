@@ -7,7 +7,7 @@ function App() {
       title: "I Was Made For Lovin You",
       artist: "KISS",
       img_src: "./images/kiwmfly-img.png",
-      src: "./music/Kiss-IWasMadeForLovinYou.m4a"
+      src: "./music/Kiss-IWasMadeForLovinYou.mp3"
     },
     {
       title: "Dancing Queen",
