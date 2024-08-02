@@ -10,7 +10,7 @@ function Player(props) {
     useEffect(() => {
         if(isPlaying){
             audioElm.current.play();
-        } else {
+        }else{
             audioElm.current.pause();
         }
     });
