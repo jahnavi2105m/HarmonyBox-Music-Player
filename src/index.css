@@ -23,16 +23,6 @@ background-size: cover;
   justify-content: center;
   min-height: 100vh;
 }
-
-.App > h1 {
-  color: #FFF;
-  font-size: 40px;
-  transform: translateX(-200px);
-  position: relative;
-  top: -320px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.8), -1px -1px 2px rgba(255,255,255,0.4);
-}
-
  
 
 .comp-player > h4 {
@@ -42,7 +32,7 @@ background-size: cover;
   font-weight: 550;
   text-align: center;
   transform: translateY(200px);
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 
@@ -52,7 +42,7 @@ background-size: cover;
   font-weight: 500;
   text-align: center;
   transform: translateY(-235px);
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .comp-player--details .details-img {
@@ -81,7 +71,7 @@ background-size: cover;
   margin-bottom: 10px;
   position: relative;
   transform: translateY(-230px);
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .comp-player--details .details-artist {
@@ -91,7 +81,7 @@ background-size: cover;
   text-align:center;
   margin-bottom: 20px;
   transform: translateY(-230px);
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .comp-player--controls {
@@ -100,7 +90,7 @@ background-size: cover;
   justify-content: center;
   margin-bottom: 30px;
   transform: translateY(-230px);
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .comp-player--controls .play-btn {
