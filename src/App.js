@@ -4,7 +4,7 @@ import Player from './components/Player'
 function App() {
   const [songs] = useState([
     {
-      title: "I Was Made For Lovin You",
+      title: "I Was Made For Lovin' You",
       artist: "KISS",
       img_src: "./images/kiwmfly-img.png",
       src: "./music/Kiss-IWasMadeForLovinYou.mp3"
@@ -20,6 +20,18 @@ function App() {
       artist: "Hozier",
       img_src: "./images/toosweet-img.png",
       src: "./music/Hozier - Too Sweet.m4a"
+    },
+    {
+      title: "Forever Young",
+      artist: "Alphaville",
+      img_src: "./images/foreveryoung-img.jpg",
+      src: "./music/Alphaville - Forever Young.m4a"
+    },
+    {
+      title: "That's Life",
+      artist: "Frank Sinatra",
+      img_src: "./images/thatslife-img.png",
+      src: "./music/Frank Sinatra-That's life.m4a"
     }
   ]);
 
