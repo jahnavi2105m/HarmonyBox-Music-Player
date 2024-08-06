@@ -52,12 +52,14 @@ background-size: cover;
 }
 
 .comp-player--details .details-img img {
+  animation: img infinite 24s linear;
   display: block;
   margin: 0px auto;
   width: 100%;
   max-width: 350px;
   border-radius: 50%;
-  transform: translateX(-440px);
+  /*transform: translateX(-440px);*/
+  margin-right: 820px;
   position: relative;
   top: 80px;
 
@@ -114,4 +116,13 @@ background-size: cover;
   cursor: pointer;
   color: #FFF;
   font-size: 18px;
+}
+
+@keyframes img {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
