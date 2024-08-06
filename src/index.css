@@ -32,7 +32,7 @@ background-size: cover;
   font-weight: 550;
   text-align: center;
   transform: translateY(200px);
-  margin-left: 200px;
+  margin-left: 395px;
 }
 
 
@@ -42,7 +42,7 @@ background-size: cover;
   font-weight: 500;
   text-align: center;
   transform: translateY(-235px);
-  margin-left: 200px;
+  margin-left: 395px;
 }
 
 .comp-player--details .details-img {
@@ -57,7 +57,7 @@ background-size: cover;
   width: 100%;
   max-width: 350px;
   border-radius: 50%;
-  transform: translateX(-560px);
+  transform: translateX(-440px);
   position: relative;
   top: 80px;
 
@@ -71,7 +71,7 @@ background-size: cover;
   margin-bottom: 10px;
   position: relative;
   transform: translateY(-230px);
-  margin-left: 200px;
+  margin-left: 395px;
 }
 
 .comp-player--details .details-artist {
@@ -81,7 +81,7 @@ background-size: cover;
   text-align:center;
   margin-bottom: 20px;
   transform: translateY(-230px);
-  margin-left: 200px;
+  margin-left: 395px;
 }
 
 .comp-player--controls {
@@ -90,7 +90,7 @@ background-size: cover;
   justify-content: center;
   margin-bottom: 30px;
   transform: translateY(-230px);
-  margin-left: 200px;
+  margin-left: 395px;
 }
 
 .comp-player--controls .play-btn {

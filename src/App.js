@@ -14,6 +14,12 @@ function App() {
       artist: "ABBA",
       img_src: "./images/dancingqueen-img.png",
       src: "./music/Abba - Dancing Queen.m4a"
+    },
+    {
+      title: "Too Sweet",
+      artist: "Hozier",
+      img_src: "./images/toosweet-img.png",
+      src: "./music/Hozier - Too Sweet.m4a"
     }
   ]);
 
@@ -32,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>HarmonyBox</h1>
+      <h1></h1>
       <Player 
       currentSongIndex={currentSongIndex}
       setCurrentSongIndex={setCurrentSongIndex}
